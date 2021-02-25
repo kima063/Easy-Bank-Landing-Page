@@ -23,10 +23,9 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
-  position: absolute;
-  /* top: 5rem; */
+  position: absolute; 
+  top: 5rem;
   right: -2rem;
-  size: 40%
 }
 #gradient-button{
   background-image: linear-gradient(to right, #22e4ac , #1BD7BB 51%, #14C9CB 100%);
@@ -57,6 +56,9 @@
   top: 8rem;
 }
 #latest-article{
+  position: relative;
+  top: 8rem;
+  padding-bottom: 12rem;
   background: #DCDCDC;
   min-height: 40rem;
   background: var(--article-bg);
@@ -68,13 +70,22 @@
   display: flex;
   justify-content: space-between;
   position: relative;
-  /* top: 7rem;
-  left: 6.5rem;
-  width: 80%; */
-
+  /* top: 7rem; */
+  /* left:0;
+  flex-direction: column;
+  width: 100%; */
 }
 #latest-article-col-single{
   margin:  1rem;
+}
+#image-resize{
+  width:300px; /* you can use % */
+  height: auto;
+
+}
+#header-image-resize{
+  width:500px; /* you can use % */
+  height: auto;
 
 }
 
