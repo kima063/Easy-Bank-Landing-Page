@@ -21,6 +21,7 @@
   top: 10rem;
   left: 7rem;
   font-family: 'Public Sans', sans-serif;
+  font-size: larger;
   
 }
 
@@ -63,7 +64,7 @@
   position: relative;
   top: 8rem;
 }
-#latest-article{
+.latest-article{
   position: relative;
   top: 8rem;
   left: 6rem;
@@ -74,13 +75,14 @@
   margin-top: -1.566rem;
   min-height: 35rem;
 }
-#latest-article-col{
+.latest-article-col{
   display: flex;
   /* justify-content: space-between; */
+  /* justify-content:space-evenly; */
   position: relative;
 }
 #latest-article-col-single{
-  margin:  1rem;
+  margin: 1rem;
 }
 #image-resize{
   width:300px; 
