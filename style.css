@@ -3,7 +3,7 @@
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 4rem;
+  min-height: 4rem;
   position: relative;
 }
 #whole-body{
@@ -30,12 +30,12 @@
   background-repeat: no-repeat;
   background-position: right;
   position: absolute; 
-  top: -3.32rem;
+  top: -2.9rem;
   right: -14rem;
 }
 #header-image-resize{
-  width:990px; 
-  height: auto;
+  max-width:930px; 
+  min-height: auto;
 }
 #gradient-button{
   background-image: linear-gradient(to right, #22e4ac , #1BD7BB 51%, #14C9CB 100%);
@@ -64,19 +64,22 @@
   position: relative;
   top: 8rem;
 }
-.latest-article{
+#latest-article-text{
+  left:6rem;
+  top: 8rem;
+  font-size: medium;
+
+}
+#latest-article{
   position: relative;
   top: 8rem;
   padding-bottom: 12rem;
-  background: #DCDCDC;
   min-height: 40rem;
-  background: var(--article-bg);
   margin-top: -1.566rem;
   min-height: 35rem;
 }
-.latest-article-col{
+#latest-article-col{
   display: flex;
-  /* justify-content: space-between; */
   justify-content:space-evenly;
   position: relative;
 }
@@ -84,13 +87,13 @@
   margin: 1rem;
 }
 #image-resize{
-  width:300px; 
+  max-width:300px; 
   height: auto;
 
 }
 #latest-article-col-single-most-left-image-resize{
-  width:300px;
-  height: 200px;
+  max-width:350px;
+  max-height: 200px;
 }
 
 #paragraph{
