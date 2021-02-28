@@ -67,7 +67,6 @@
 .latest-article{
   position: relative;
   top: 8rem;
-  left: 6rem;
   padding-bottom: 12rem;
   background: #DCDCDC;
   min-height: 40rem;
@@ -78,7 +77,7 @@
 .latest-article-col{
   display: flex;
   /* justify-content: space-between; */
-  /* justify-content:space-evenly; */
+  justify-content:space-evenly;
   position: relative;
 }
 #latest-article-col-single{
