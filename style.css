@@ -6,16 +6,27 @@
   min-height: 4rem;
   position: relative;
 }
-#whole-body{
+
+a{
+  text-decoration: none; 
+  color:gray; 
+  margin-right: 10px; 
+  font-size: large;
+}
+
+body{
+  overflow-x: hidden;
+}
+.whole-body{
   background-color: #f0f0f0;
 
 }
-#body-container {
+.body-container {
   background-position-x: 0rem;
   background-position-y: -1rem;
   min-height: 35rem;
 }
-#body-text{
+.body-text{
   position: absolute;
   width: 35%;
   top: 10rem;
@@ -25,38 +36,38 @@
   
 }
 
-#body-image {
+.body-image {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
   position: absolute; 
-  top: -2.9rem;
-  right: -14rem;
+  top: -1rem;
+  right: -10rem;
 }
 #header-image-resize{
-  max-width:930px; 
+  max-width:800px; 
   min-height: auto;
 }
-#gradient-button{
+.gradient-button{
   background-image: linear-gradient(to right, #22e4ac , #1BD7BB 51%, #14C9CB 100%);
   border: none;
   text-align: center;
-  padding: 6px 12px;
-  font-size: 12px;
+  padding: 8px 12px;
+  font-size: 15px;
   color:white;
   border-radius: 10px;
   font-weight: bold;
 }
-#middle-body{
+.middle-body{
     min-height: 35rem;
     top: 40rem;
 }
-#middle-body-text{
+.middle-body-text{
   position: relative;
   top: 6rem;
   left: 6rem;
 }
-#middle-body-col{
+.middle-body-col{
   display: flex;
   justify-content: space-between;
   margin-left: 6rem;
@@ -64,13 +75,12 @@
   position: relative;
   top: 8rem;
 }
-#latest-article-text{
-  left:6rem;
-  top: 8rem;
+.latest-article-text{
+  margin-left: 300px;
   font-size: medium;
 
 }
-#latest-article{
+.latest-article{
   position: relative;
   top: 8rem;
   padding-bottom: 12rem;
@@ -78,29 +88,29 @@
   margin-top: -1.566rem;
   min-height: 35rem;
 }
-#latest-article-col{
+.latest-article-col{
   display: flex;
   justify-content:space-evenly;
   position: relative;
 }
-#latest-article-col-single{
+.latest-article-col-single{
   margin: 1rem;
 }
-#image-resize{
+.image-resize{
   max-width:300px; 
   height: auto;
 
 }
-#latest-article-col-single-most-left-image-resize{
+.latest-article-col-single-most-left-image-resize{
   max-width:350px;
   max-height: 200px;
 }
 
-#paragraph{
+.paragraph{
   font-weight: lighter;
   color: gray;
 }
-#footer-container {
+.footer-container {
     background: #36454f;
     min-height: 10rem;
     display: flex;
@@ -111,17 +121,21 @@
     top: 4rem;
 }
 
-#footer-section-one {
+li{
+  list-style-type:none;
+}
+
+.footer-section-one {
   display: flex;
   width: 50%;
   justify-content: space-around;
 }
-#footer-section-two {
+.footer-section-two {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
 
-#footer-logo{
+.footer-logo{
   color: white;
 }
