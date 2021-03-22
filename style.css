@@ -147,7 +147,7 @@ body {
 	clear: both;
 	padding: 3px;
 	margin: 0px;
-  background-color: whitesmoke;
+  background-color: white;
 
 }
 a{
@@ -166,6 +166,7 @@ a{
 }
 li{
   list-style-type: none;
+  color:white;
 }
 
 /*  COLUMN SETUP  */
