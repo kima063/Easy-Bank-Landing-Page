@@ -3,31 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | Easybank landing page</title>
 
 <body>
   
 
-<header class="header">
-  <div>
-    <img src="./images/logo.svg" />
+  <div class="section-header group">
+    <div class="col span_1_of_3" >
+      <img src="./images/logo.svg" style="margin-left: 5rem ;"/>
+    </div>
+    <div class="col span_1_of_3">
+      <nav style="margin-left: 3rem;">
+        <a href="#" >Home</a>
+        <a href="#" >About</a>   
+        <a href="#" >Contact</a>   
+        <a href="#" >Blog</a>   
+        <a href="#" >Careers</a>        
+    </nav>
+    </div>
+    <div class="col span_1_of_3">
+      <button class="gradient-button" style="margin-left: 5rem ;">Request Invite</button>
+    </div>
   </div>
-  <nav>
-    <a href="#" >Home</a>
-    <a href="#" >About</a>   
-    <a href="#" >Contact</a>   
-    <a href="#" >Blog</a>   
-    <a href="#" >Careers</a>        
-</nav>
-    <button class="gradient-button">Request Invite</button>
-</header>
+
 
 <div class="whole-body">
 <div class="body-container">
+
+  <!--Body Using col grid-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   <div class="body-image">
     <img src="images/finalBG.png" id="header-image-resize" />
   </div>
@@ -46,88 +67,132 @@
 
   <p class="paragraph">We leverage Open Banking to turn your bank account into your financial hub. <br>Control 
   your finances like never before.</p> </div>
-<div class="middle-body-col">
-  <div class="latest-article-col-single"><img src="images/icon-online.svg">
-
-  <h4>Online Banking</h4>
-  <p class="paragraph">Our modern web and mobile <br> applications allow you to keep <br> track of your finances 
-  wherever <br> you are in the world.</p> </div>
 
 
-<div class="latest-article-col-single"><img src="images/icon-budgeting.svg">
-  <h4>Simple Budgeting</h4>
-  <p class="paragraph">See exactly where your money <br> goes each month. Receive <br> notifications when you’re 
-    close to <br> hitting your limits.</p> </div>
+<!--Middle column Using Cards-->
 
- <div class="latest-article-col-single"><img src="images/icon-onboarding.svg">
-    <h4>Fast Onboarding</h4>
-  <p class="paragraph">We don’t do branches. Open your <br> account in minutes online and start <br> taking control 
-    of your finances <br> right away.</p> </div>
+<div class="row" style="margin-top:180px; margin-bottom: 180px;">
+  <div class="column">
+    <div class="card">
+      <img src="images/icon-online.svg">
 
-    <div class="latest-article-col-single"><img src="images/icon-api.svg">
-  <h4>Open API</h4>
-  <p class="paragraph">  Manage your savings, investments, <br> pension, and much more from one <br> account. Tracking 
-  your money has <br> never been easier. </p></div>
-  </div> </div> </div>
+        <h4>Online Banking</h4>
+        <p class="paragraph">Our modern web and mobile <br> applications allow you to keep <br> track of your finances 
+        wherever <br> you are in the world.</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+    <img src="images/icon-budgeting.svg">
+    <h4>Simple Budgeting</h4>
+    <p class="paragraph">See exactly where your money <br> goes each month. Receive <br> notifications when you’re 
+      close to <br> hitting your limits.</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images/icon-onboarding.svg">
+      <h4>Fast Onboarding</h4>
+    <p class="paragraph">We don’t do branches. Open your <br> account in minutes online and start <br> taking control 
+      of your finances <br> right away.</p> 
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images/icon-api.svg">
+      <h4>Open API</h4>
+      <p class="paragraph">  Manage your savings, investments, <br> pension, and much more from one <br> account. Tracking 
+      your money has <br> never been easier. </p>
+    </div>
+  </div>
 </div>
-  
-<div class="latest-article">
-<h1 style="margin-left: 20px;">Latest Articles</h1> 
-  <div class="latest-article-col">
-<div>
-  <img src="images/image-currency.jpg" class="latest-article-col-single-most-left-image-resize"> <br>
 
-  <h10 class="paragraph"><weak>By Claire Robinson</weak></h10> <br>
-  <h3>Receive money in any <br> currency with no fees</h3><br>
-<p class="paragraph">The world is getting smaller and <br> we’re becoming more mobile. So <br> why should you be 
-  forced to only <br> receive money in a single … </p> </div>
+</div> </div>
+</div>
 
-  <div>
-    <img src="images/image-restaurant.jpg" class="image-resize"> <br>
-  
+
+<!--Latest Article Using card-->
+<h2 style="margin-left: 50px; margin-top: 8rem;">Latest Article</h2>
+<div class="row" style="margin-bottom: 8rem;">
+  <div class="column">
+    <div class="card">
+      <img src="images/image-currency.jpg" class="latest-article-col-single-most-left-image-resize"> <br>
+      <h10 class="paragraph"><weak>By Claire Robinson</weak></h10> <br>
+      <h3>Receive money in any <br> currency with no fees</h3>
+    <p class="paragraph">The world is getting smaller and <br> we’re becoming more mobile. So <br> why should you be 
+      forced to only <br> receive money in a single … </p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/image-restaurant.jpg" class="image-resize">
+      <br> 
     <h10 class="paragraph">By Wilson Hutton</h10> <br>
-    <h3>Treat yourself without <br> worrying about money</h3><br>
+    <h3>Treat yourself without <br> worrying about money</h3>
     <p class='paragraph'> Our simple budgeting feature <br> allows you to separate out your <br> spending and set 
-      realistic limits <br> each month. That means you … </p> </div>
-    <div >
-      <img src="images/image-plane.jpg " class="image-resize"> <br>
-    
+      realistic limits <br> each month. That means you … </p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images/image-plane.jpg " class="image-resize">
+      <br>    
       <h10 class="paragraph"><weak>By Wilson Hutton</weak></h10> <br>
-      <h3>Take your Easybank card <br> wherever you go</h3><br>
+      <h3>Take your Easybank card <br> wherever you go</h3>
       <p class="paragraph">We want you to enjoy your travels. <br> This is why we don’t charge any <br> fees on purchases 
-        while you’re <br> abroad. We’ll even show you …</p></div>
-      <div>
-        <img src="images/image-confetti.jpg" class="image-resize"> <br>
-      
-        <h10 class="paragraph"><weak>By Claire Robinson</weak></h10> <br>
-        <h3>Our invite-only Beta <br> accounts are now live!</h3><br>
-        <p class="paragraph">
-          After a lot of hard work by the <br> whole team, we’re excited to launch <br> our closed beta. 
-          It’s easy to request <br> an invite through the site ...</p>  </div> </div>
+        while you’re <br> abroad. We’ll even show you …</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images/image-confetti.jpg" class="image-resize">
+      <br>      
+      <h10 class="paragraph"><weak>By Claire Robinson</weak></h10> <br>
+      <h3>Our invite-only Beta <br> accounts are now live!</h3>
+      <p class="paragraph">
+        After a lot of hard work by the <br> whole team, we’re excited to launch <br> our closed beta. 
+        It’s easy to request <br> an invite through the site ...</p>
+    </div>
+  </div>
 </div>
-  <br> <br> 
+
+
+
+
 </body>
 <footer>
-  <div class="footer-container">
-  <div class="footer-section-one">
-    <div>
-      <img src="images/logo.svg" alt="logo" class="footer-logo" />
-      <div>
-        <img src="images/icon-facebook.svg" />
-        <img src="images/icon-youtube.svg" />
-        <img src="images/icon-twitter.svg"  />
-        <img src="images/icon-pinterest.svg" />
-        <img src="images/icon-instagram.svg" />
+
+  <!--Footer-->
+
+  <div class="section group">
+    <div class="col span_1_of_3" >
+      <div style="margin-left: 5rem ;">
+        <img src="images/logo.svg" alt="logo" class="footer-logo"/>
+        <div>
+          <img src="images/icon-facebook.svg" />
+          <img src="images/icon-youtube.svg" />
+          <img src="images/icon-twitter.svg"  />
+          <img src="images/icon-pinterest.svg" />
+          <img src="images/icon-instagram.svg" />
+        </div>
       </div>
     </div>
-    <div>
+    <div class="col span_1_of_3">
+      <div style="display: flex;">
+      <div style="margin-right: 6rem;">
       
         <li>About Us</li>
         <li>Contact</li>
         <li>Blog</li>
       
     </div>
-    <div >
+    <div>
       
         <li>Careers</li>
         <li>Support</li>
@@ -135,11 +200,14 @@
       
     </div>
   </div>
-  <div class="footer-section-two">
-    <button class="gradient-button">Request Invite</button>
-    <p>&copy Easybank. All Rights Reserved</p> 
-  </div>  
-</div>
+    </div>
+    <div class="col span_1_of_3">
+      <div style="margin-left: 5rem ;" >
+      <button class="gradient-button">Request Invite</button>
+      <p>&copy Easybank. All Rights Reserved</p> 
+    </div>
+    </div>
+  </div>
 </footer>
 </html>
 
