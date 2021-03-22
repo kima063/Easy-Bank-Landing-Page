@@ -68,7 +68,7 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   position: absolute; 
-  top: -1.5rem;
+  top: -1rem;
   right: -12rem;
 }
 #header-image-resize{
@@ -89,6 +89,7 @@ body {
 .middle-body{
     min-height: 35rem;
     top: 40rem;
+    margin-top:30rem;
 }
 .middle-body-text{
   position: relative;
@@ -145,9 +146,10 @@ body {
 
 .section-header {
 	clear: both;
-	padding: 3px;
+  padding: 0px;
 	margin: 0px;
   background-color: white;
+  margin-top: 10px;
 
 }
 a{
