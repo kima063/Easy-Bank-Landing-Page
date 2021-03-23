@@ -88,12 +88,10 @@ body {
 }
 .middle-body{
     min-height: 35rem;
-    top: 40rem;
-    margin-top:30rem;
+    margin-top: 5rem;
 }
 .middle-body-text{
   position: relative;
-  top: 6rem;
   left: 6rem;
   font-family: 'Public Sans', sans-serif;
   font-size: 18px;
