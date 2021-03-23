@@ -36,6 +36,9 @@ body {
   }
 }
 
+.col-8 {width: 66.66%;}
+.col-4 {width: 33.33%;}
+
 /* Style the counter cards */
 .card {
   padding: 16px;
@@ -92,7 +95,7 @@ body {
 }
 .middle-body-text{
   position: relative;
-  left: 6rem;
+  left: 4rem;
   font-family: 'Public Sans', sans-serif;
   font-size: 18px;
   font-weight: 700;
