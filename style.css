@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  
 }
 
 body {
@@ -52,12 +53,13 @@ body {
 }
 .body-container {
   background-position-x: 0rem;
-  background-position-y: -1rem;
+  background-position-y: 0rem;
   min-height: 35rem;
 }
 .body-text{
   position: absolute;
-  width: 35%;
+  width: 30%;
+  max-width: 35%;
   top: 10rem;
   left: 7rem;
   font-family: 'Public Sans';
@@ -67,16 +69,15 @@ body {
 }
 
 .body-image {
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right;
   position: absolute; 
-  top: -1rem;
+  top: -0.5rem;
   right: -12rem;
+  
 }
 #header-image-resize{
   max-width:800px; 
-  min-height: auto;
+  width: 100%;
+  height: auto;
 }
 .gradient-button{
   background-image: linear-gradient(to right, #22e4ac , #1BD7BB 51%, #14C9CB 100%);
