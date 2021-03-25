@@ -82,6 +82,11 @@ body {
 }
 
 @media screen and (max-width: 992px) {
+  body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
   .body-image {
     position: absolute; 
     right: -12rem;
@@ -110,10 +115,15 @@ body {
 
 }
 @media screen and (max-width: 600px) {
+  body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
   .body-image {
     position: absolute; 
     right: -12rem;
-    margin-top: -35.5%;
+    margin-top: -40.5%;
     
   }
   .middle-body-text{
