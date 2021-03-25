@@ -1,6 +1,5 @@
 * {
-  box-sizing: border-box;
-  
+  box-sizing: border-box;  
 }
 
 body {
@@ -60,8 +59,10 @@ body {
   position: absolute;
   width: 30%;
   max-width: 35%;
-  top: 10rem;
-  left: 7rem;
+ 
+  margin-top: 10%;
+
+  margin-left: 7%;
   font-family: 'Public Sans';
   font-size: 18px;
   font-weight: 700;
@@ -70,8 +71,8 @@ body {
 
 .body-image {
   position: absolute; 
-  top: -0.5rem;
   right: -12rem;
+  margin-top: -8.5%;
   
 }
 #header-image-resize{
@@ -79,6 +80,40 @@ body {
   width: 100%;
   height: auto;
 }
+
+@media screen and (max-width: 992px) {
+  .body-image {
+    position: absolute; 
+    right: -12rem;
+    margin-top: -35.5%;
+    
+  }
+  .middle-body-text{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 15rem;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 5rem;
+    
+  }
+  .body-text{
+    width: 60%;
+    max-width: 65%;  
+    margin-top: 30rem; 
+    margin-left: 4rem;
+    font-size: 16px;
+    font-weight: 300;
+    
+  }
+
+
+}
+@media screen and (max-width: 600px) {
+ 
+}
+
+
 .gradient-button{
   background-image: linear-gradient(to right, #22e4ac , #1BD7BB 51%, #14C9CB 100%);
   border: none;
