@@ -73,9 +73,43 @@ header > .container
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 1rem 0; */
     position: relative;
 }
+
+/* .section-header {
+	clear: both;
+  padding: 0px;
+	margin: 0px;
+  background-color: white;
+  margin-top: 10px;
+} */
+
+/*  COLUMN SETUP  */
+/* .col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; } */
+/*  GROUPING  */
+/* .group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+} */
+/* .group {
+    zoom:1; 
+}
+
+.span_1_of_3 {
+	width: 32.2%;
+} */
+
+
+
 
 nav
 {
@@ -412,3 +446,10 @@ nav .request
         height: 35px;
     } */
 }
+
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/* @media only screen and (max-width: 480px) {
+	.col { margin: 1% 0 1% 0%;}
+	.span_1_of_3 { width: 100%; }
+} */
