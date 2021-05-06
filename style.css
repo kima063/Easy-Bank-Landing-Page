@@ -32,18 +32,7 @@ h1, h2, h3, h4
     font-weight: 400;
     margin-bottom: 1.8rem;
 }
-h1
-{
-    font-size: 2.5rem;
-}
-h2
-{
-    font-size: 2.2rem;
-}
-h3
-{
-    font-size: 1.6rem;
-}
+
 p
 {
     line-height: 1.5;
@@ -52,14 +41,21 @@ p
 .container
 {
     width: 85vw;
-    max-width: 1110px;
+    max-width: 1210px;
     margin: 0 auto;
     text-align: center;
 }
 .request
 {
-    padding: 0.9rem 2.6rem;
-    border-radius: 40px;
+    padding: 0.9rem 1.6rem;
+    /* margin-top:8px;
+    margin-bottom: 8px; */
+    margin: 8px 4px;
+    min-width: 16%;
+    max-width: 70%;
+    min-height: 10%;
+    max-height: 50%;
+    border-radius: 20px;
     background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
     color: hsl(0, 0%, 100%);
 }
@@ -114,7 +110,6 @@ header > .container
 nav
 {
     display: none;
-    /* display: flex; */
     position: absolute;
     top: 5rem;
     right: 0;
@@ -261,6 +256,7 @@ nav .request
     .toggle, .nav__list::before
     {
         display: none;
+        margin: 8px 8px;
     }
     h1
     {
@@ -381,6 +377,7 @@ nav .request
     .footer .logo img
     {
         margin-top: 1rem;
+        width: 180px;
     }
     .footer__social
     {
