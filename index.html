@@ -2,216 +2,162 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-
+  <title>Easybank landing page</title>
+</head>
 <body>
-  
-
-  <div class="section-header group">
-    <div class="col span_1_of_3" >
-      <img src="./images/logo.svg" style="margin-left: 5rem ;"/>
+  <header>
+    <div class="container">
+      <a href="#" class="logo">
+        <img src="images/logo.svg" alt="logo">
+      </a>
+      <a href="#" class="toggle"><img class="ham" src="images/icon-hamburger.svg" alt="toggle menu"></a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">Home</li>
+          <li class="nav__item">About</li>
+          <li class="nav__item">Contact</li>
+          <li class="nav__item">Blog</li>
+          <li class="nav__item">Careers</li>
+        </ul>
+      </nav>
+      <a href="#" class="request">Request Invite</a>
     </div>
-    <div class="col span_1_of_3">
-      <nav style="margin-left: 3rem;">
-        <a href="#" >Home</a>
-        <a href="#" >About</a>   
-        <a href="#" >Contact</a>   
-        <a href="#" >Blog</a>   
-        <a href="#" >Careers</a>        
-    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero__image">
+      <img src="images/image-mockups.png" alt="mobile">
     </div>
-    <div class="col span_1_of_3">
-      <button class="gradient-button" style="margin-left: 5rem ;">Request Invite</button>
+    <div class="hero__text container">
+      <h1>Next generation digital banking</h1>
+      <p>Take your financial life online. Your Easybank account will be a one-stop-shop 
+        for spending, saving, budgeting, investing, and much more.</p>
+      <a href="#" class="request">Request Invite</a>
     </div>
-  </div>
+  </section>
 
+  <section class="whyUs">
+    <div class="container">
+      <div class="whyUs__heading">
+        <h2>Why choose Easybank?</h2>
+        <p>We leverage Open Banking to turn your bank account into your financial hub. Control 
+          your finances like never before.</p>
+      </div>
+      <div class="whyUs__text grid">
+        <div class="whyUs__card">
+          <img src="images/icon-online.svg" alt="online banking">
+          <h3>Online Banking</h3>
+          <p>Our modern web and mobile applications allow you to keep track of your finances 
+            wherever you are in the world.</p>
+        </div>
 
-<div class="whole-body">
-<div class="body-container">
+        <div class="whyUs__card">
+          <img src="images/icon-budgeting.svg" alt="simple budgeting">
+          <h3>Simple Budgeting</h3>
+          <p>See exactly where your money goes each month. Receive notifications when you’re 
+            close to hitting your limits.</p>
+        </div>
 
-  <!--UpperBody Using col grid-->
-    <div class="row" style=" margin-bottom: 30rem;">
-      <div class="column">
-        <div class="card">
-          <div class="body-text">
-            <div class="offset-md-2 col-md-2 pd-header">
-          <h1 >Next generation <br> digital banking</h1> </div>
-        
-          <p class="paragraph">Take your financial life online. Your Easybank account will be a one-stop-shop 
-          for spending, saving,budgeting, investing, and much more. </p> 
-        
-          <button class="gradient-button">Request Invite</button> </div>
+        <div class="whyUs__card">
+          <img src="images/icon-onboarding.svg" alt="fast onboarding">
+          <h3>Fast Onboarding</h3>
+          <p>We don’t do branches. Open your account in minutes online and start taking control 
+            of your finances right away.</p>
+        </div>
+
+        <div class="whyUs__card">
+          <img src="images/icon-api.svg" alt="open api">
+          <h3>Open API</h3>
+          <p>Manage your savings, investments, pension, and much more from one account. Tracking 
+            your money has never been easier.</p>
         </div>
       </div>
-    
-      <div class="column">
-        <div class="card">
-          <div class="body-image">
-            <img src="images/finalBG.png" id="header-image-resize" />
+    </div>
+  </section>
+
+  <section class="article">
+    <div class="container">
+      <div class="article__heading">
+        <h2>Latest Articles</h2>
+      </div>
+      <div class="article__text grid">
+        <div class="article__card">
+          <img src="images/image-currency.jpg" alt="currency">
+          <div class="article__info">
+            <p class="article__author">By Claire Robinson</p>
+            <h4>Receive money in any currency with no fees</h4>
+            <p class="article__content">The world is getting smaller and we’re becoming more mobile. So why should you be 
+              forced to only receive money in a single …</p>
+          </div>
+        </div>
+
+        <div class="article__card">
+          <img src="images/image-restaurant.jpg" alt="restaurant">
+          <div class="article__info">
+            <p class="article__author">By Wilson Hutton</p>
+            <h4>Treat yourself without worrying about money</h4>
+            <p class="article__content">Our simple budgeting feature allows you to separate out your spending and set 
+              realistic limits each month. That means you …</p>
+          </div>
+        </div>
+
+        <div class="article__card">
+          <img src="images/image-plane.jpg" alt="plane">
+          <div class="article__info">
+            <p class="article__author">By Wilson Hutton</p>
+            <h4>Take your Easybank card wherever you go</h4>
+            <p class="article__content">We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
+              while you’re abroad. We’ll even show …</p>
+          </div>
+        </div>
+
+        <div class="article__card">
+          <img src="images/image-confetti.jpg" alt="confetti">
+          <div class="article__info">
+            <p class="article__author">By Claire Robinson</p>
+            <h4>Our invite-only Beta accounts are now live!</h4>
+            <p class="article__content">After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
+              It’s easy to request an invite through the site ...</p>
           </div>
         </div>
       </div>
-</div>
-
-<!--Body-->
-<div class="middle-body">
-  <!--Responsive Middle Body-->
-  <div class="row">
-    <div class="col-4">
-      <div class="card">
-      <div class="middle-body-text"> <h2>Why choose Easybank?</h2>
-
-        <p class="paragraph">We leverage Open Banking to turn your bank account into your financial hub.Control 
-        your finances like never before.</p> </div>
-      </div>
-
     </div>
-  </div>
+  </section>
 
- 
-
-
-<!--Middle column Using Cards-->
-
-<div class="row" style="margin-top:100px; margin-bottom: 10rem;">
-  <div class="column">
-    <div class="card">
-      <img src="images/icon-online.svg">
-
-        <h4>Online Banking</h4>
-        <p class="paragraph">Our modern web and mobile applications allow you to keep track of your finances 
-        wherever you are in the world.</p>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-    <img src="images/icon-budgeting.svg">
-    <h4>Simple Budgeting</h4>
-    <p class="paragraph">See exactly where your money goes each month. Receive notifications when you’re 
-      close to hitting your limits.</p>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="card">
-      <img src="images/icon-onboarding.svg">
-      <h4>Fast Onboarding</h4>
-    <p class="paragraph">We don’t do branches. Open your account in minutes online and start taking control 
-      of your finances right away.</p> 
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="card">
-      <img src="images/icon-api.svg">
-      <h4>Open API</h4>
-      <p class="paragraph">  Manage your savings, investments, pension, and much more from one account. Tracking 
-      your money has never been easier. </p>
-    </div>
-  </div>
-</div>
-
-</div> </div>
-</div>
-
-
-<!--Latest Article Using card-->
-<h2 style="margin-left: 50px; margin-top: 8rem;">Latest Article</h2>
-<div class="row" style="margin-bottom: 8rem;">
-  <div class="column">
-    <div class="card">
-      <img src="images/image-currency.jpg" class="latest-article-col-single-most-left-image-resize"> <br>
-      <h10 class="paragraph"><weak>By Claire Robinson</weak></h10> <br>
-      <h3>Receive money in any <br> currency with no fees</h3>
-    <p class="paragraph">The world is getting smaller and we’re becoming more mobile. So why should you be 
-      forced to only receive money in a single … </p>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="images/image-restaurant.jpg" class="image-resize">
-      <br> 
-    <h10 class="paragraph">By Wilson Hutton</h10> <br>
-    <h3>Treat yourself without <br> worrying about money</h3>
-    <p class='paragraph'> Our simple budgeting feature allows you to separate out your spending and set 
-      realistic limits each month. That means you … </p>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="card">
-      <img src="images/image-plane.jpg " class="image-resize">
-      <br>    
-      <h10 class="paragraph"><weak>By Wilson Hutton</weak></h10> <br>
-      <h3>Take your Easybank card <br> wherever you go</h3>
-      <p class="paragraph">We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
-        while you’re abroad. We’ll even show you …</p>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="card">
-      <img src="images/image-confetti.jpg" class="image-resize">
-      <br>      
-      <h10 class="paragraph"><weak>By Claire Robinson</weak></h10> <br>
-      <h3>Our invite-only Beta <br> accounts are now live!</h3>
-      <p class="paragraph">
-        After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
-        It’s easy to request an invite through the site ...</p>
-    </div>
-  </div>
-</div>
-
-
-
-
-</body>
-<footer>
-
-  <!--Footer-->
-
-  <div class="section group">
-    <div class="col span_1_of_3" >
-      <div style="margin-left: 5rem ;">
-        <img src="images/logo_white.svg" alt="logo" class="footer-logo"/>
-        <div style="margin-top: 23px; margin-left: 16px;">
-          <img src="images/icon-facebook.svg" />
-          <img src="images/icon-youtube.svg" />
-          <img src="images/icon-twitter.svg"  />
-          <img src="images/icon-pinterest.svg" />
-          <img src="images/icon-instagram.svg" />
+  <footer class="footer">
+    <div class="container">
+      <div>
+        <a href="#" class="logo">
+          <img src="images/logo-white.svg" alt="logo white">
+        </a>
+        <div class="footer__social">
+          <a href="#"><img src="images/icon-facebook.svg" alt="facebook"></a>
+          <a href="#"><img src="images/icon-youtube.svg" alt="youtube"></a>
+          <a href="#"><img src="images/icon-twitter.svg" alt="twitter"></a>
+          <a href="#"><img src="images/icon-pinterest.svg" alt="pinterest"></a>
+          <a href="#"><img src="images/icon-instagram.svg" alt="instagram"></a>
         </div>
       </div>
+      <div class="footer__about">
+        <a href="#" class="footer__text">About Us</a>
+        <a href="#" class="footer__text">Contact</a>
+        <a href="#" class="footer__text">Blog</a>
+      </div>
+      <div class="footer__career">
+        <a href="#" class="footer__text">Careers</a>
+        <a href="#" class="footer__text">Support</a>
+        <a href="#" class="footer__text">Privacy Policy</a>
+      </div>
+      <div class="footer__cta">
+        <a href="#" class="request">Request Invite</a>
+        <p class="copyright">© Easybank. All Rights Reserved</p>
+      </div>
     </div>
-    <div class="col span_1_of_3">
-      <div style="display: flex;">
-      <div style="margin-right: 7rem; margin-top: 10px; margin-bottom: 10px;">
-      
-        <li>About Us</li>
-        <li>Contact</li>
-        <li>Blog</li>
-      
-    </div>
-    <div style="margin-top: 10px; margin-bottom: 10px;">
-      
-        <li>Careers</li>
-        <li>Support</li>
-        <li>Privacy Policy</li>
-      
-    </div>
-  </div>
-    </div>
-    <div class="col span_1_of_3">
-      <div>
-      <button class="gradient-button" style="margin-left: 115px;">Request Invite</button>
-      <p style="color: white; text-align: left;">&copy Easybank. All Rights Reserved</p> 
-    </div>
-    </div>
-  </div>
-</footer>
-</html>
+  </footer>
 
+</body>
+</html>
