@@ -59,8 +59,6 @@ p
 .request
 {
     padding: 0.9rem 1.6rem;
-    /* margin-top:8px;
-    margin-bottom: 8px; */
     margin: 8px 4px;
     min-width: 16%;
     max-width: 70%;
@@ -69,10 +67,6 @@ p
     border-radius: 20px;
     background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
     color: hsl(0, 0%, 100%);
-}
-.request:hover
-{
-    opacity: 0.7;
 }
 
 header > .container
@@ -232,7 +226,7 @@ nav .request
 }
 .footer__social, .footer__about, .footer__career
 {
-    margin-top: 1.8rem;
+    margin-top: 1.2rem;
 }
 .footer__social > a:not(:first-child)
 {
@@ -240,7 +234,7 @@ nav .request
 }
 .footer__social img
 {
-    width:30px;
+    width:24px;
 }
 .footer__about, .footer__career
 {
@@ -388,7 +382,6 @@ nav .request
     .footer .logo img
     {
         margin-top: 1rem;
-        width: 180px;
     }
     .footer__social
     {
